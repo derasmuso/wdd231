@@ -5,10 +5,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Daniel Rasmuson</span>
+        <button id="ham-btn" class="hamburger"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Assignment</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/derasmuso" target="_blank">
+                <img src="images/github.svg" alt="github" width="16" height="16">
+            </a>
+            <a href="www.linkedin.com/in/daniel-rasmuson-59063c" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" width="16" height="16">
+            </a>
+            <a href="https://www.facebook.com/daniel.rasmuson.2025" target="_blank">
+                <img src="images/facebook.svg" alt="facebook" width="16" height="16">
+            </a>
+        </div>
 
+        <p>copyright symbol and current year</p>
+        <p>Last Modified</p>
+    </footer>
+    <script src="scripts/navigation.js" defer></script>
 </body>
 
 </html>
