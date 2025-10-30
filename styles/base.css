@@ -1,6 +1,6 @@
 /* -------------- Color Scheme --------------
-terra cotta #E07A5F
-deep slate blue #3D405B
+Dark Blue #071D49
+Yellow #FFB81D
 */
 
 /***************** SITE WIDE *****************/
@@ -11,7 +11,7 @@ deep slate blue #3D405B
 
 h1 {
     margin-left: 10px;
-    color: #3D405B;
+    color: #071D49;
 }
 
 /***************** HEADER *****************/
@@ -33,14 +33,14 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #3D405B;
+    color: #071D49;
 }
 
 /***************** HAMBURGER *****************/
 .hamburger {
     background: none;
     border: none;
-    color: #3D405B;
+    color: #071D49;
     cursor: pointer;
 }
 
@@ -72,7 +72,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #3D405B;
+    color: #071D49;
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
@@ -82,7 +82,7 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #E07A5F;
+    background-color: #FFB81D;
 }
 
 /***************** FOOTER *****************/
