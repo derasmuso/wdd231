@@ -118,6 +118,10 @@ footer {
     background-color: #ddd;
 }
 
+footer p {
+    color: var(--primary-color);
+}
+
 /***************** MAIN *****************/
 
 .photo img {
@@ -133,6 +137,7 @@ footer {
 
 .about p {
     padding: 0 10px 10px;
+    color: var(--primary-color);
 }
 
 .photo,
@@ -157,6 +162,7 @@ footer {
 
 .certificate p {
     text-align: center;
+    color: var(--primary-color);
 }
 
 .course-button {
@@ -195,4 +201,5 @@ footer {
     width: 75%;
     border-radius: 10px;
     padding: 10px;
+    color: var(--primary-color);
 }
