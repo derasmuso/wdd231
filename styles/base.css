@@ -1,7 +1,8 @@
-/* -------------- Color Scheme --------------
-Dark Blue #071D49
-Yellow #FFB81D
-*/
+/* -------------- Color Scheme --------------*/
+:root {
+    --primary-color: #071D49;
+    --secondary-color: #FFB81D;
+}
 
 /***************** SITE WIDE *****************/
 * {
@@ -11,7 +12,7 @@ Yellow #FFB81D
 
 h1 {
     margin-left: 10px;
-    color: #071D49;
+    color: var(--primary-color);
 }
 
 /***************** HEADER *****************/
@@ -33,14 +34,14 @@ header img {
 
 header span {
     font-size: 1.2rem;
-    color: #071D49;
+    color: var(--primary-color);
 }
 
 /***************** HAMBURGER *****************/
 .hamburger {
     background: none;
     border: none;
-    color: #071D49;
+    color: var(--primary-color);
     cursor: pointer;
 }
 
@@ -72,7 +73,7 @@ header span {
 .navigation a {
     display: block;
     padding: .8rem 10px;
-    color: #071D49;
+    color: var(--primary-color);
     text-decoration: none;
     border-bottom: solid 1px #ddd;
 }
@@ -82,7 +83,7 @@ header span {
 }
 
 .navigation a:hover {
-    background-color: #FFB81D;
+    background-color: var(--secondary-color);
 }
 
 /***************** FOOTER *****************/
@@ -134,11 +135,64 @@ footer {
     padding: 0 10px 10px;
 }
 
+.photo,
+.certificate {
+    margin-bottom: 20px;
+}
+
 .content h2 {
-    background-color: #FFB81D;
+    background-color: var(--primary-color);
+    color: white;
 }
 
 .content section {
     background-color: #eee;
 
+}
+
+.certificate {
+    padding: 10px;
+
+}
+
+.certificate p {
+    text-align: center;
+}
+
+.course-button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+
+}
+
+.course-button button {
+    background-color: var(--secondary-color);
+    padding: 5px 10px;
+    border-radius: 10px;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.course-button button:hover {
+    background-color: #D2BD96;
+}
+
+
+.complete p {
+    background-color: var(--secondary-color);
+}
+
+.incomplete p {
+    background-color: #D2BD96;
+}
+
+.course-list p {
+    justify-self: center;
+    text-align: center;
+    width: 75%;
+    border-radius: 10px;
+    padding: 10px;
 }
