@@ -1,0 +1,23 @@
+{
+    "family_name": "Johnson",
+    "move_in_date": "2025-11-03",
+    "number_of_people": 3,
+    "visited": true,
+    "family_members": [
+        {
+            "name": "Larry",
+            "gender": "Male",
+            "birthdate": "1993-01-23"
+        },
+        {
+            "name": "Jessica",
+            "gender": "Female",
+            "birthdate": "1994-05-06"
+        },
+        {
+            "name": "Lexi",
+            "gender": "Female",
+            "birthdate": "2023-06-22"
+        }
+    ]
+}
