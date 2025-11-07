@@ -1,1 +1,57 @@
-@media only screen and (min-width: 38rem) {}
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    footer {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+
+    header {
+        flex-direction: row;
+
+    }
+
+    .logo span {
+        white-space: nowrap;
+
+
+
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact {
+        margin-left: 10rem;
+    }
+
+    .student {
+        margin-right: 10rem;
+    }
+
+
+
+}
