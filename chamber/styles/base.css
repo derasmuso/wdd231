@@ -156,3 +156,51 @@ footer {
 
 
 /********* MAIN CONTENT *********/
+
+#members-card {
+    display: grid;
+    gap: 8px;
+    margin: 25px;
+}
+
+#members-card section {
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#members-card img {
+    margin-top: 10px;
+}
+
+#members-card p,
+#members-card h2 {
+    margin: 0;
+    padding: 5px;
+}
+
+#members-card.grid {
+    display: grid;
+}
+
+#members-card.list {
+    display: block;
+}
+
+.toggle {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin: 20px 0;
+
+}
+
+.toggle button {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    cursor: pointer;
+}

@@ -1,65 +1,67 @@
-[
-    {
-        "name": "Blendtec Inc",
-        "address": "1206 S 1680 W, Orem, UT 84058",
-        "phone": "(801) 222-0888",
-        "website": "https://www.blendtec.com/?utm_source=google&utm_medium=organic&utm_campaign=google_buisness_profile&utm_content=home_page&utm_term=home_page",
-        "logo": "https://www.blendtec.com/cdn/shop/files/Black_Blendtec_200x@2x.png?v=1670543506",
-        "membership": "Silver",
-        "industry": "Manufacturing"
-    },
-    {
-        "name": "Bucked Up",
-        "address": "815 W University Pkwy, Orem, UT 84058",
-        "phone": "(385) 585-2455",
-        "website": "http://buckedup.com/",
-        "logo": "https://www.buckedup.com/public/default/img/home/header/bk-logo-navbar.webp",
-        "membership": "Gold",
-        "industry": "Vitamin and Supplements "
-    },
-    {
-        "name": "Greenix Pest Control",
-        "address": "355 W University Pkwy, Orem, UT 84058",
-        "phone": "(385) 471-0483",
-        "website": "https://www.greenixpc.com/service-areas/utah/orem?utm_source=gbp&utm_medium=organic&utm_campaign=Orem",
-        "logo": "https://octanecdn.com/greenixpccom/greenixpccom_886359809.svg",
-        "membership": "Silver",
-        "industry": "Pest Control"
-    },
-    {
-        "name": "Iguana Technologies",
-        "address": "1143 Center St, Orem, UT 84057",
-        "phone": "(801) 997-0188",
-        "website": "https://iguanaapps.com/",
-        "logo": "https://iguanaapps.com/wp-content/uploads/2023/01/Iguana-Logo-NEW-512-TRANSPARENTE.png",
-        "membership": "Gold",
-        "industry": "Technology"
-    },
-    {
-        "name": "McFarland Automotive",
-        "address": "1533 S State St, Orem, UT 84097",
-        "phone": "(385) 582-0813",
-        "website": "https://mcfarlandautoutah.com/",
-        "logo": "https://le-cdn.hibuwebsites.com/8c1facb3696f481fab83dd510913c003/dms3rep/multi/opt/mcfarland-automotive-logo-541w.jpg",
-        "membership": "Silver",
-        "industry": "Automotive"
-    },
-    {
-        "name": "Mi Ranchito",
-        "address": "1109 S State St, Orem, UT 84097",
-        "phone": "(844) 536-2041",
-        "website": "http://miranchito-orem.com/",
-        "logo": "https://static.spotapps.co/website_images/ab_websites/119227_website_v1/logo.png",
-        "membership": "Member",
-        "industry": "Restaurant"
-    },
-    {
-        "name": "Nickel City",
-        "address": "1515 S State St, Orem, UT 84097",
-        "phone": "(801) 802-8555",
-        "website": "http://www.nickelcityorem.com/",
-        "logo": "http://www.nickelcityorem.com/site_media/images/logo.png",
-        "membership": "Member",
-        "industry": "Entertainment"
-    }
-]
+{
+    "members": [
+        {
+            "name": "Blendtec Inc",
+            "address": "1206 S 1680 W, Orem, UT 84058",
+            "phone": "(801) 222-0888",
+            "website": "https://www.blendtec.com/",
+            "logo": "https://www.blendtec.com/cdn/shop/files/Black_Blendtec_200x@2x.png?v=1670543506",
+            "membership": "Silver",
+            "industry": "Manufacturing"
+        },
+        {
+            "name": "Bucked Up",
+            "address": "815 W University Pkwy, Orem, UT 84058",
+            "phone": "(385) 585-2455",
+            "website": "http://buckedup.com/",
+            "logo": "https://www.buckedup.com/public/default/img/home/header/bk-logo-navbar.webp",
+            "membership": "Gold",
+            "industry": "Vitamin and Supplements "
+        },
+        {
+            "name": "Greenix Pest Control",
+            "address": "355 W University Pkwy, Orem, UT 84058",
+            "phone": "(385) 471-0483",
+            "website": "https://www.greenixpc.com/",
+            "logo": "https://octanecdn.com/greenixpccom/greenixpccom_886359809.svg",
+            "membership": "Silver",
+            "industry": "Pest Control"
+        },
+        {
+            "name": "Iguana Technologies",
+            "address": "1143 Center St, Orem, UT 84057",
+            "phone": "(801) 997-0188",
+            "website": "https://iguanaapps.com/",
+            "logo": "https://iguanaapps.com/wp-content/uploads/2023/01/Iguana-Logo-NEW-512-TRANSPARENTE.png",
+            "membership": "Gold",
+            "industry": "Technology"
+        },
+        {
+            "name": "McFarland Automotive",
+            "address": "1533 S State St, Orem, UT 84097",
+            "phone": "(385) 582-0813",
+            "website": "https://mcfarlandautoutah.com/",
+            "logo": "https://le-cdn.hibuwebsites.com/8c1facb3696f481fab83dd510913c003/dms3rep/multi/opt/mcfarland-automotive-logo-541w.jpg",
+            "membership": "Silver",
+            "industry": "Automotive"
+        },
+        {
+            "name": "Mi Ranchito",
+            "address": "1109 S State St, Orem, UT 84097",
+            "phone": "(844) 536-2041",
+            "website": "http://miranchito-orem.com/",
+            "logo": "https://static.spotapps.co/website_images/ab_websites/119227_website_v1/logo.png",
+            "membership": "Member",
+            "industry": "Restaurant"
+        },
+        {
+            "name": "Nickel City",
+            "address": "1515 S State St, Orem, UT 84097",
+            "phone": "(801) 802-8555",
+            "website": "http://www.nickelcityorem.com/",
+            "logo": "http://www.nickelcityorem.com/site_media/images/logo.png",
+            "membership": "Member",
+            "industry": "Entertainment"
+        }
+    ]
+}
