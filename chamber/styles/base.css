@@ -1,16 +1,21 @@
 /********* COLOR SCHEME/TYPOGRAPHY *********/
 
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --background-color: ;
-    --text-color: ;
+    --primary-color: #50C878;
+    --secondary-color: #FFFF8F;
+    --background-color: #eee;
+    --text-color: #023020;
 
 }
 
 * {
     font-family: "Roboto", sans-serif;
     box-sizing: border-box;
+}
+
+p,
+h2 {
+    color: var(--text-color);
 }
 
 /********* HEADER CONTENT *********/
@@ -46,6 +51,7 @@ header img {
     font-size: 1.3rem;
     font-weight: bold;
     margin-left: 8px;
+    color: var(--text-color);
 
 
 }
@@ -101,6 +107,7 @@ header img {
 .navigation a {
     text-decoration: none;
     padding: 0.5rem 1rem;
+    color: var(--text-color);
 
 
 
@@ -123,6 +130,7 @@ footer {
     padding: 1rem 10px;
 
 }
+
 
 .social {
     display: flex;
@@ -149,13 +157,19 @@ footer {
 }
 
 .social a:hover {
-    background-color: #ddd;
+    background-color: var(--secondary-color);
 }
 
 
 
 
 /********* MAIN CONTENT *********/
+
+main h1 {
+    text-align: center;
+    color: var(--text-color);
+
+}
 
 #members-card {
     display: grid;
@@ -164,7 +178,7 @@ footer {
 }
 
 #members-card section {
-    background-color: #eee;
+    background-color: var(--background-color);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,11 +198,28 @@ footer {
 
 #members-card.grid {
     display: grid;
+
 }
 
 #members-card.list {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin: 20px;
 }
+
+#members-card.list section {
+    flex-direction: row;
+    font-size: 8px;
+
+}
+
+#members-card.list img {
+    display: none;
+}
+
+
+
 
 .toggle {
     display: flex;
@@ -203,4 +234,9 @@ footer {
     border: 1px solid #ccc;
     border-radius: 8px;
     cursor: pointer;
+    background-color: #eee;
+}
+
+.toggle button:hover {
+    background-color: var(--secondary-color);
 }

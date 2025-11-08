@@ -19,6 +19,15 @@
             "industry": "Vitamin and Supplements "
         },
         {
+            "name": "Classic Fun Center",
+            "address": "250 State St, Orem, UT 84058",
+            "phone": "(801) 224-4197",
+            "website": "https://classicfun.com/",
+            "logo": "https://images.squarespace-cdn.com/content/v1/574f9f4f62cd9477002d22cf/0afe719b-b272-494e-827b-2acdde9ac0be/Classic+Floor+Design+4+Color%2BVariations-03+%281%29.png?format=1500w",
+            "membership": "Member",
+            "industry": "Entertainment"
+        },
+        {
             "name": "Greenix Pest Control",
             "address": "355 W University Pkwy, Orem, UT 84058",
             "phone": "(385) 471-0483",
@@ -53,15 +62,6 @@
             "logo": "https://static.spotapps.co/website_images/ab_websites/119227_website_v1/logo.png",
             "membership": "Member",
             "industry": "Restaurant"
-        },
-        {
-            "name": "Nickel City",
-            "address": "1515 S State St, Orem, UT 84097",
-            "phone": "(801) 802-8555",
-            "website": "http://www.nickelcityorem.com/",
-            "logo": "http://www.nickelcityorem.com/site_media/images/logo.png",
-            "membership": "Member",
-            "industry": "Entertainment"
         }
     ]
 }

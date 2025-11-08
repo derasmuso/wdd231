@@ -29,6 +29,7 @@ const displayMembersCards = (members) => {
         companyLogo.setAttribute("width", "200");
         companyLogo.setAttribute("height", "auto");
 
+
         companyName.textContent = `${member.name}`;
         companyAddress.textContent = `${member.address}`;
         companyPhone.textContent = `${member.phone}`;

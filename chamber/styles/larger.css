@@ -54,9 +54,19 @@
 
     #members-card {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-
-
     }
+
+    #members-card.list section {
+        font-size: 1rem;
+        justify-content: flex-start;
+    }
+
+    #members-card.list p,
+    #members-card.list h2 {
+        margin: 25px;
+    }
+
+
 
 
 
