@@ -4,19 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <meta name="description" content="">
+    <title>Home</title>
+    <meta name="description" content="Chamber of Commerce home page ">
     <meta name="author" content="Daniel Rasmuson">
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/landing-base.css">
+    <link rel="stylesheet" href="styles/landing-larger.css">
 
     <!-- JavaScript -->
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/members.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <script src="scripts/spotlight.js" defer></script>
+
 
     <!--- FAVICON --->
     <link rel="icon" href="mountain.ico">
@@ -24,7 +26,7 @@
     <!--Social Media Tags-->
     <meta property="og:title" content="Utah Valley Chamber of Commerce">
     <meta property="og:description"
-        content="Explore the Orem Chamber of Commerce directory featuring local businesses, restaurants, and services.">
+        content="Connecting Orem's community with trusted local businesses, events, and opportunities through the Chamber of Commerce.">
     <meta property="og:url" content="https://www.uvcc.com/">
     <meta property="og:image" content="https://derasmuso.github.io/wdd231/chamber/images/mountains.svg">
 
@@ -60,15 +62,39 @@
 
 
     <main>
-
-        <h1>Directory</h1>
-
-        <div class="toggle">
-            <button id="button-grid">Grid</button>
-            <button id="button-list">List</button>
+        <div class="hero">
+            <img src="images/orem.jpg" alt="Hero Image">
+            <a href="#">Keynote Tickets</a>
         </div>
 
-        <div id="members-card"></div>
+        <h1>Home</h1>
+        <div class="middle">
+            <div class="events">
+                <h2>Events</h2>
+                <h3>Orem Business and Community Expo</h3>
+                <p>Bring together local businesses, entrepreneurs, and community members to showcase products and
+                    services, foster
+                    networking, and highlight local economic growth.</p>
+                <p></p>
+                <p><strong>Where: </strong>UCCU Center</p>
+                800 W University Pkwy, Orem, UT 84097
+                <p><strong>When: </strong>Saturday, October 29th</p>
+                <p><strong>Time: </strong>10:00am - 6:00pm</p>
+            </div>
+
+            <section id="weather">
+                <h2>Current Weather</h2>
+            </section>
+            <section id="forecast">
+                <h2>Weather Forecast</h2>
+            </section>
+        </div>
+
+
+        <section id="spotlight">
+
+        </section>
+
 
     </main>
     <footer>

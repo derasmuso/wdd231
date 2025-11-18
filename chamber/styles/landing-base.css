@@ -14,7 +14,9 @@
 }
 
 p,
-h2 {
+h2,
+h1,
+h3 {
     color: var(--text-color);
 }
 
@@ -158,4 +160,82 @@ footer {
 
 .social a:hover {
     background-color: var(--secondary-color);
+}
+
+/********* MAIN CONTENT *********/
+
+main h1 {
+    padding-left: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero a {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 8px;
+    color: var(--text-color);
+}
+
+.hero a:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+
+.middle {
+    display: grid;
+
+}
+
+.events,
+#weather,
+#forecast {
+    background-color: var(--background-color);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#weather p.description {
+    text-transform: capitalize;
+}
+
+#spotlight {
+    display: grid;
+    gap: 25px;
+    margin: 25px;
+}
+
+#spotlight section {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#spotlight img {
+    margin-top: 10px;
+}
+
+#spotlight p,
+#spotlight h2 {
+    margin: 0;
+    padding: 5px;
 }
