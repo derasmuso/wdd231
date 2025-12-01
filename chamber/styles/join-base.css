@@ -1,0 +1,165 @@
+/********* COLOR SCHEME/TYPOGRAPHY *********/
+
+:root {
+    --primary-color: #50C878;
+    --secondary-color: #FFFF8F;
+    --background-color: #eee;
+    --text-color: #023020;
+
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+p,
+h2,
+h1,
+h3 {
+    color: var(--text-color);
+}
+
+/********* HEADER CONTENT *********/
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    border-bottom: solid 1px #ddd;
+
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+.logo span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 8px;
+    color: var(--text-color);
+
+
+}
+
+
+
+/********* HAMBURGER *********/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+
+}
+
+/********* NAVIGATION *********/
+.navigation {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+.navigation li {
+    margin: 0.5rem 0;
+    padding: 10px;
+    font-size: large;
+    border-bottom: solid 1px #ddd;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+
+
+
+
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation a.current,
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/********* FOOTER CONTENT *********/
+footer {
+    background-color: #eee;
+    padding: 1rem 10px;
+
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 8px;
+    padding-left: 3rem;
+
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: #ccc solid 1px;
+    border-radius: 50%;
+
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social a:hover {
+    background-color: var(--secondary-color);
+}
+
+/********* MAIN CONTENT *********/
