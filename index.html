@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="author" content="Daniel Rasmuson">
+    <meta name="description"
+        content="The purpose of this assignment is to develop of course home page to demonstrate prerequisite knowledge of HTML, CSS, and JavaScript. ">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/larger.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/course.js" defer></script>
+
+</head>
+
+<body>
+    <header>
+        <img src="images/home.svg" alt="site logo" width="512" height="512">
+        <span>Daniel Rasmuson</span>
+        <button id="ham-btn" class="hamburger" aria-label="Menu"></button>
+    </header>
+    <nav id="nav-bar" class="navigation">
+        <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Home</h1>
+        <div class="content">
+            <section class="about">
+                <h2>About Me</h2>
+                <p>My name is Daniel and I am from Orem, Utah. I am currently working as registration agent for
+                    BYU-Pathway Worldwide. I enjoy playing games, watching movies, and spending time with my wife. I
+                    have a love for point and click adventure games. My wife and I are working on developing our own for
+                    fun.</p>
+            </section>
+
+            <section class="photo">
+                <h2>Student Photo</h2>
+                <img src="images/profile.webp" alt="Photo of Me" width="1035" height="1553">
+            </section>
+
+            <section class="certificate">
+                <h2>Web Certificate Courses</h2>
+                <div class="course-button">
+                    <button id="all">All Courses</button>
+                    <button id="wdd">WDD Courses</button>
+                    <button id="cse">CSE Courses</button>
+                </div>
+
+                <div class="course-list"></div>
+
+                <p id="credits"></p>
+
+
+
+            </section>
+        </div>
+    </main>
+    <footer>
+        <div class="social">
+            <a href="https://github.com/derasmuso" target="_blank">
+                <img src="images/github.svg" alt="github" width="16" height="16">
+            </a>
+            <a href="https://www.linkedin.com/in/daniel-rasmuson-59063c/" target="_blank">
+                <img src="images/linkedin.svg" alt="linkedin" width="16" height="16">
+            </a>
+            <a href="https://www.facebook.com/daniel.rasmuson.2025" target="_blank">
+                <img src="images/facebook.svg" alt="facebook" width="16" height="16">
+            </a>
+        </div>
+
+        <p id="currentyear"></p>
+        <p id="lastModified"></p>
+    </footer>
+
+</body>
+
+</html>
