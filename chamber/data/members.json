@@ -23,7 +23,7 @@
             "address": "250 State St, Orem, UT 84058",
             "phone": "(801) 224-4197",
             "website": "https://classicfun.com/",
-            "logo": "images/classicfun.png",
+            "logo": "images/classicfun.webp",
             "membership": "Member",
             "industry": "Entertainment"
         },
@@ -41,7 +41,7 @@
             "address": "1143 Center St, Orem, UT 84057",
             "phone": "(801) 997-0188",
             "website": "https://iguanaapps.com/",
-            "logo": "images/iguana.png",
+            "logo": "images/iguana.webp",
             "membership": "Gold",
             "industry": "Technology"
         },
@@ -59,7 +59,7 @@
             "address": "1109 S State St, Orem, UT 84097",
             "phone": "(844) 536-2041",
             "website": "http://miranchito-orem.com/",
-            "logo": "images/miranchito.png",
+            "logo": "images/miranchito.webp",
             "membership": "Member",
             "industry": "Restaurant"
         }
