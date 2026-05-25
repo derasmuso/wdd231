@@ -1,0 +1,74 @@
+@media only screen and (min-width: 38rem) {
+
+    /* HEADER, FOOTER, NAV */
+
+    header,
+    main,
+    footer {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+
+    header {
+        flex-direction: row;
+
+    }
+
+    .logo span {
+        white-space: nowrap;
+
+
+
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    /* MAIN */
+
+    .hero img {
+        width: 1500px;
+        height: 800px;
+    }
+
+    .hero a {
+        left: 80%;
+        padding: 20px;
+
+    }
+
+
+    .middle {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    #spotlight {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+
+}

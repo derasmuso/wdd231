@@ -1,0 +1,242 @@
+/********* COLOR SCHEME/TYPOGRAPHY *********/
+
+:root {
+    --primary-color: #50C878;
+    --secondary-color: #FFFF8F;
+    --background-color: #eee;
+    --text-color: #023020;
+
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+p,
+h2,
+h1,
+h3 {
+    color: var(--text-color);
+}
+
+/********* HEADER CONTENT *********/
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem 1rem;
+    border-bottom: solid 1px #ddd;
+
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+
+}
+
+
+
+header img {
+    width: 50px;
+    height: auto;
+}
+
+.logo span {
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 8px;
+    color: var(--text-color);
+
+
+}
+
+
+
+/********* HAMBURGER *********/
+.hamburger {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+
+}
+
+.hamburger::before {
+    content: "\2630";
+    font-size: 2rem;
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+
+}
+
+/********* NAVIGATION *********/
+.navigation {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+
+}
+
+.navigation li {
+    margin: 0.5rem 0;
+    padding: 10px;
+    font-size: large;
+    border-bottom: solid 1px #ddd;
+
+}
+
+.navigation a {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    color: var(--text-color);
+
+
+
+
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation a.current,
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+
+/********* FOOTER CONTENT *********/
+
+footer {
+    background-color: var(--background-color);
+    padding: 1rem 10px;
+}
+
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    column-gap: 8px;
+    padding-left: 3rem;
+
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: #ccc solid 1px;
+    border-radius: 50%;
+
+}
+
+.social img {
+    width: 30px;
+    height: 30px;
+}
+
+.social a:hover {
+    background-color: var(--secondary-color);
+}
+
+
+/********* MAIN CONTENT *********/
+
+main h1 {
+    padding-left: 10px;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero {
+    position: relative;
+}
+
+.hero a {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    font-size: 1.2rem;
+    padding: 8px;
+    color: var(--text-color);
+}
+
+.hero a:hover {
+    background-color: var(--primary-color);
+}
+
+
+
+
+.middle {
+    display: grid;
+
+}
+
+.events,
+#weather,
+#forecast {
+    background-color: var(--background-color);
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
+}
+
+#weather p.description {
+    text-transform: capitalize;
+}
+
+#spotlight {
+    display: grid;
+    gap: 25px;
+    margin: 25px;
+}
+
+#spotlight section {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#spotlight img {
+    margin-top: 10px;
+}
+
+#spotlight p,
+#spotlight h2 {
+    margin: 0;
+    padding: 5px;
+}
