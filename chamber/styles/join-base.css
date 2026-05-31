@@ -163,3 +163,98 @@ footer {
 }
 
 /********* MAIN CONTENT *********/
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea,
+select {
+
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 25px;
+}
+
+
+.submit-button,
+.button-open {
+    width: 200px;
+    height: 40px;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+
+
+}
+
+.membership h2,
+.card h3 {
+    text-align: center;
+}
+
+.card {
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--background-color);
+}
+
+dialog {
+    position: relative;
+    padding: 2rem;
+}
+
+.button-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.card {
+    animation: colorCycle 15s infinite;
+}
+
+@keyframes colorCycle {
+
+    0%,
+    20% {
+        background-color: var(--background-color);
+    }
+
+    33%,
+    53% {
+        background-color: var(--secondary-color);
+    }
+
+    66%,
+    86% {
+        background-color: var(--primary-color);
+    }
+
+    100% {
+        background-color: var(--background-color);
+    }
+}
