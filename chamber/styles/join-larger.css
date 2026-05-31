@@ -57,12 +57,18 @@
     /* MAIN */
     form {
         width: auto;
+        grid-column: 1;
     }
 
     main {
         display: grid;
         grid-template-columns: 2fr 1fr;
+        align-items: start;
 
+    }
+
+    .membership {
+        grid-column: 2;
     }
 
 
