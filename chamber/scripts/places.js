@@ -12,6 +12,7 @@ function displayItems(places) {
         const image = document.createElement("img")
         image.src = `images/${place.image_link}`
         image.alt = place.name
+        image.loading = "lazy";
 
 
         const title = document.createElement("h2")
