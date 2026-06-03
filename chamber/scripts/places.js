@@ -13,6 +13,7 @@ function displayItems(places) {
         image.src = `images/${place.image_link}`
         image.alt = place.name
 
+
         const title = document.createElement("h2")
         title.innerText = place.name
 
