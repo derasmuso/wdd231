@@ -11,12 +11,15 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/landing-base.css">
-    <link rel="stylesheet" href="styles/landing-larger.css">
+    <link rel="stylesheet" href="styles/discover-base.css">
+    <link rel="stylesheet" href="styles/discover-medium.css">
+    <link rel="stylesheet" href="styles/discover-larger.css">
 
     <!-- JavaScript -->
     <script src="scripts/footer.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/places.js" type="module" defer></script>
+    <script src="scripts/visit-message.js" defer></script>
 
     <!--- FAVICON --->
     <link rel="icon" href="mountain.ico">
@@ -24,7 +27,7 @@
     <!--Social Media Tags-->
     <meta property="og:title" content="Orem Chamber of Commerce">
     <meta property="og:description"
-        content="Connecting Orem's community with trusted local businesses, events, and opportunities through the Chamber of Commerce.">
+        content="Learn about Orem's thriving community, growing economy, and vibrant local attractions. Explore the facts and opportunities that make Orem an ideal place for businesses and visitors.">
     <meta property="og:url" content="https://www.uvcc.com/">
     <meta property="og:image" content="https://derasmuso.github.io/wdd231/chamber/images/mountains.svg">
 
@@ -58,8 +61,11 @@
     </header>
 
     <main>
+        <h1>Discover Orem and Provo</h1>
 
+        <p id="visit-message"></p>
 
+        <div id="places-card"></div>
 
     </main>
     <footer>

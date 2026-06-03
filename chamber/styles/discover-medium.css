@@ -1,0 +1,99 @@
+@media only screen and (min-width: 38rem) {
+    /* HEADER, FOOTER, NAV */
+
+    header,
+    main,
+    footer {
+        max-width: 1500px;
+        margin: 0 auto;
+    }
+
+
+    header {
+        flex-direction: row;
+
+    }
+
+    .logo span {
+        white-space: nowrap;
+
+
+
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+
+    }
+
+    .navigation ul {
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    .contact {
+        margin-left: 10rem;
+    }
+
+    .student {
+        margin-right: 10rem;
+    }
+
+    /********* Main CONTENT *********/
+
+    #places-card div {
+
+        display: grid;
+        grid-template-areas:
+            "name name"
+            "image description"
+            "image address"
+            "button button";
+
+        gap: 1rem;
+
+
+
+    }
+
+    #places-card div img {
+        width: 300px;
+
+    }
+
+    #places-card div button {
+        width: 80%;
+    }
+
+    #places-card div p {
+        text-align: left;
+
+
+    }
+
+    #places-card div address {
+        text-align: left;
+        margin-top: -5rem
+    }
+
+    #places-card div img:hover {
+        box-shadow: 0 0 50px #333;
+    }
+
+
+
+}
