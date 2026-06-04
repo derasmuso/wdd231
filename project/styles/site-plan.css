@@ -1,0 +1,36 @@
+:root {
+    --primary-color: #1A412A;
+    --secondary-color: #2F6B3D;
+}
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+
+h1,
+h2,
+p,
+li {
+    color: var(--primary-color);
+
+}
+
+
+h3 {
+    color: #2F6B3D;
+}
+
+img {
+    width: 50%;
+    height: auto;
+}
+
+body {
+    padding: 15px;
+}
+
+.answer {
+    list-style: none;
+}
