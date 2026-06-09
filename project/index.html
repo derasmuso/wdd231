@@ -24,21 +24,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
 
     <!-- CSS -->
+    <link rel="stylesheet" href="styles/landing-base.css">
+    <link rel="stylesheet" href="styles/landing-larger.css">
 
     <!-- JavaScript -->
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/footer.js" defer></script>
 </head>
 
 <body>
     <header>
-        <span>Discover Utah County</span>
-        <img src="" alt="">
+
+        <div class="header-div">
+            <div class="logo">
+                <img src="" alt="">
+                <span>Discover Utah County</span>
+            </div>
+            <button id="ham-btn" class="hamburger" aria-label="menu"></button>
+        </div>
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a class="current" href="#">Home</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+
     </header>
 
-    <nav>
-        <a class="current" href="#">Home</a>
-        <a href="discover.html">Discover</a>
-        <a href="contact.html">Contact</a>
-    </nav>
+
 
     <main>
         <div class="hero">
@@ -53,20 +69,7 @@
     </main>
 
     <footer>
-        <div class="social">
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
-            <a href="">
-                <img src="" alt="">
-            </a>
-        </div>
+
         <div class="contact">
             <p><strong>Discover Utah County</strong></p>
             <p>789 Discovery Way</p>
@@ -77,11 +80,26 @@
         </div>
 
         <div class="copyright">
-            <p>WDD231 Final Project</p>
+            <p><strong>WDD231 Final Project</strong></p>
             <p>Daniel Rasmuson</p>
             <p id="currentyear"></p>
             <p id="lastModified"></p>
             <a href="sources.html">Sources Page</a>
+        </div>
+
+        <div class="social">
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.svg" alt="instagram">
+            </a>
+            <a href="https://www.youtube.com/">
+                <img src="images/youtube.svg" alt="youtube">
+            </a>
+            <a href="https://x.com/">
+                <img src="images/twitter-x.svg" alt="twitter">
+            </a>
+            <a href="https://www.facebook.com/">
+                <img src="images/facebook.svg" alt="facebook">
+            </a>
         </div>
     </footer>
 </body>
