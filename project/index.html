@@ -25,11 +25,13 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="styles/landing-base.css">
-    <link rel="stylesheet" href="styles/landing-larger.css">
+
 
     <!-- JavaScript -->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/footer.js" defer></script>
+    <script src="scripts/featured.js" defer></script>
+
 </head>
 
 <body>
@@ -58,20 +60,40 @@
 
     <main>
         <div class="hero">
-            <img src="" alt="">
+            <img src="images/hero.webp" alt="Hero Image" fetchpriority="high">
+
+            <div class="hero-content">
+                <h1>Discover.<br>
+                    Experience.<br>
+                    Have Fun.
+                </h1>
+
+                <p>Explore all the amazing things to do in Utah County, from outdoor adventures to local culture and
+                    events.
+                </p>
+                <a href="discover.html">Explore Now</a>
+            </div>
+
+        </div>
+
+        <section class="everyone">
+            <h2>Something for Everyone</h2>
             <p>Utah County offers a variety of outdoor adventures, family attractions, local events, and recreational
                 activities. From
                 hiking mountain trails and enjoying Utah Lake to exploring parks, museums, and entertainment venues,
                 there's something
                 for everyone to enjoy.</p>
-            <a href="discover.html">Discover Activites</a>
+        </section>
+
+        <div id="featured">
+
         </div>
     </main>
 
     <footer>
 
         <div class="contact">
-            <p><strong>Discover Utah County</strong></p>
+            <h3>Discover Utah County</h3>
             <p>789 Discovery Way</p>
             <p>Orem, Utah 84058</p>
             <p>info@discoverutah.com</p>
@@ -80,27 +102,32 @@
         </div>
 
         <div class="copyright">
-            <p><strong>WDD231 Final Project</strong></p>
+            <h3>WDD231 Final Project</h3>
             <p>Daniel Rasmuson</p>
             <p id="currentyear"></p>
             <p id="lastModified"></p>
             <a href="sources.html">Sources Page</a>
         </div>
 
-        <div class="social">
-            <a href="https://www.instagram.com/">
-                <img src="images/instagram.svg" alt="instagram">
-            </a>
-            <a href="https://www.youtube.com/">
-                <img src="images/youtube.svg" alt="youtube">
-            </a>
-            <a href="https://x.com/">
-                <img src="images/twitter-x.svg" alt="twitter">
-            </a>
-            <a href="https://www.facebook.com/">
-                <img src="images/facebook.svg" alt="facebook">
-            </a>
+
+        <div class="follow">
+            <h3>Follow Us</h3>
+            <div class="social">
+                <a href="https://www.instagram.com/">
+                    <img src="images/instagram.svg" alt="instagram" width="30" height="30">
+                </a>
+                <a href="https://www.youtube.com/">
+                    <img src="images/youtube.svg" alt="youtube" width="30" height="30">
+                </a>
+                <a href="https://x.com/">
+                    <img src="images/twitter-x.svg" alt="twitter" width="30" height="30">
+                </a>
+                <a href="https://www.facebook.com/">
+                    <img src="images/facebook.svg" alt="facebook" width="30" height="30">
+                </a>
+            </div>
         </div>
+
     </footer>
 </body>
 

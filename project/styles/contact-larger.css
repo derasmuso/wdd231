@@ -47,18 +47,5 @@
 
     /********* Main Content *********/
 
-    .hero img {
-        max-height: 600px;
-    }
 
-    .hero-content {
-        background-color: rgba(0, 0, 0, 0.2);
-        top: 5%;
-        left: 25%;
-    }
-
-    #featured {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
 }

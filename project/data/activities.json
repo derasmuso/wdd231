@@ -1,0 +1,124 @@
+{
+    "activities": [
+        {
+            "name": "Ashton Gardens",
+            "cost": "Paid admission",
+            "address": "3900 N Garden Dr, Lehi, UT 84043",
+            "description": "A 50-acre botanical garden featuring themed gardens, walking paths, waterfalls, and seasonal events.",
+            "image": "ashton-gardens.webp",
+            "featured": true
+        },
+        {
+            "name": "Curiosity Farms",
+            "cost": "Varies by activity",
+            "address": "445 W 4000 N, Lehi, UT 84043",
+            "description": "A family-friendly farm attraction offering animal encounters, educational experiences, and seasonal activities.",
+            "image": "curiosity-farms.webp",
+            "featured": true
+        },
+        {
+            "name": "Museum of Ancient Life",
+            "cost": "Paid admission",
+            "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+            "description": "One of the largest dinosaur museums in the world, featuring fossils, interactive exhibits, and life-sized dinosaur displays.",
+            "image": "ancient-life.webp",
+            "featured": false
+        },
+        {
+            "name": "Butterfly Biosphere",
+            "cost": "Paid admission",
+            "address": "3003 N Thanksgiving Way, Lehi, UT 84043",
+            "description": "An interactive butterfly conservatory where visitors can experience thousands of butterflies and learn about insects and ecosystems.",
+            "image": "butterfly-biosphere.webp",
+            "featured": false
+        },
+        {
+            "name": "Monte L. Bean Life Science Museum",
+            "cost": "Free",
+            "address": "645 E 1430 N, Provo, UT 84602",
+            "description": "A natural history museum featuring wildlife exhibits, taxidermy collections, and educational programs.",
+            "image": "bean.webp",
+            "featured": false
+        },
+        {
+            "name": "UVU Museum of Art",
+            "cost": "Free",
+            "address": "800 W University Pkwy, Orem, UT 84058",
+            "description": "Utah Valley University's art museum showcasing contemporary and traditional works by regional and international artists.",
+            "image": "uvu-art.webp",
+            "featured": false
+        },
+        {
+            "name": "BYU Museum of Art",
+            "cost": "Free",
+            "address": "N Campus Dr, Provo, UT 84602",
+            "description": "A major university art museum featuring rotating exhibitions, American art, and international collections.",
+            "image": "byu-art.webp",
+            "featured": true
+        },
+        {
+            "name": "Bridal Veil Falls",
+            "cost": "Free",
+            "address": "Provo Canyon Rd, Provo, UT 84604",
+            "description": "A scenic 607-foot waterfall accessible by a paved trail in Provo Canyon.",
+            "image": "bridal-veil.webp",
+            "featured": true
+        },
+        {
+            "name": "Roots of Knowledge",
+            "cost": "Free",
+            "address": "800 W University Pkwy, Orem, UT 84058",
+            "description": "A massive stained-glass art installation at UVU depicting the history of human knowledge and achievement.",
+            "image": "roots-of-knowledge.webp",
+            "featured": false
+        },
+        {
+            "name": "Mount Timpanogos Trail",
+            "cost": "Free",
+            "address": "Timpooneke Trailhead, American Fork Canyon, UT 84003",
+            "description": "A challenging mountain trail leading to the summit of Mount Timpanogos with alpine scenery and wildlife viewing opportunities.",
+            "image": "mount-timp.webp",
+            "featured": false
+        },
+        {
+            "name": "Utah Lake State Park",
+            "cost": "State park entrance fee",
+            "address": "4400 W Center St, Provo, UT 84601",
+            "description": "A popular destination for boating, fishing, kayaking, paddleboarding, and lakeside recreation.",
+            "image": "utah-lake.webp",
+            "featured": false
+        },
+        {
+            "name": "Nickel City",
+            "cost": "Low-cost admission; games require nickels or game card",
+            "address": "1526 N State St, Orem, UT 84057",
+            "description": "A family arcade featuring classic and modern games, redemption prizes, and affordable entertainment.",
+            "image": "nickel-city.webp",
+            "featured": false
+        },
+        {
+            "name": "Scratch Mini Golf",
+            "cost": "Paid admission",
+            "address": "2330 N Thanksgiving Way, Lehi, UT 84043",
+            "description": "An indoor mini golf attraction featuring creative courses, interactive elements, and family-friendly entertainment.",
+            "image": "scratch-golf.webp",
+            "featured": false
+        },
+        {
+            "name": "Splash Summit Waterpark",
+            "cost": "Paid admission",
+            "address": "1330 E 300 N, Provo, UT 84606",
+            "description": "A family-friendly water park featuring water slides, a lazy river, splash zones, swimming pools, and attractions for all ages.",
+            "image": "splash-summit.webp",
+            "featured": false
+        },
+        {
+            "name": "Ruth and Nathan Hale Theater",
+            "cost": "Paid admission",
+            "address": "9900 S Monroe St, Sandy, UT 84070",
+            "description": "A professional theater company known for family-friendly productions, musicals, comedies, and classic stage performances.",
+            "image": "hale-theater.webp",
+            "featured": false
+        }
+    ]
+}
