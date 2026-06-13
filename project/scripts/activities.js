@@ -28,7 +28,9 @@ async function getActivityData(file) {
             const image = document.createElement("img")
             image.src = `images/${activity.image}`;
             image.alt = activity.name;
-            image.loading = "lazy";
+            image.width = 300;
+            image.height = 200;
+            image.fetchPriority = "high";
 
             const name = document.createElement("h2")
             name.innerText = activity.name

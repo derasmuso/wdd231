@@ -38,14 +38,16 @@
     }
 
     footer {
-        display: flex;
         flex-direction: row;
         justify-content: center;
         gap: 20rem;
-
     }
 
     /********* Main Content *********/
-
+    #activity-card {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        min-height: 300px;
+    }
 
 }

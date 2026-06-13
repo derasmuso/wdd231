@@ -128,8 +128,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     justify-content: center;
+    align-items: center;
     gap: 5px;
-
 
 }
 
@@ -148,6 +148,8 @@ footer {
 .social img {
     width: 30px;
     height: 30px;
+    object-fit: contain;
+    display: block;
 }
 
 .social a:hover {
@@ -160,11 +162,54 @@ footer {
     text-align: center;
     color: var(--accent-color);
 
-
 }
+
+
 
 .copyright a {
     color: var(--accent-color);
 }
 
+/** Main **/
 
+main h1 {
+    text-align: center;
+    color: var(--primary-color);
+
+}
+
+main p {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+#activity-card {
+    min-height: 800px;
+}
+
+#activity-card div {
+    margin: 1rem 8px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: var(--primary-color);
+    text-align: left;
+    color: var(--accent-color);
+    overflow: hidden;
+
+}
+
+#activity-card img {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+
+}
+
+#activity-card h2,
+#activity-card p,
+#activity-card address {
+    text-align: center;
+    padding: 5px;
+    color: var(--accent-color);
+}
