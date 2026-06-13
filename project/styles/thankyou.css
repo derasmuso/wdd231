@@ -1,0 +1,26 @@
+:root {
+    --primary-color: #1A412A;
+    --secondary-color: #2F6B3D;
+    --accent-color: #F6F8FF;
+}
+
+
+
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+p {
+    font-size: x-large;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+#submission {
+    text-align: center;
+    font-size: larger;
+    color: var(--text-color);
+
+}

@@ -7,7 +7,7 @@
     <title>Contact - Discover Utah County</title>
     <meta name="author" content="Daniel Rasmuson">
     <meta name="description"
-        content="Find fun things to do near you, from outdoor adventures and family activities to local events and attractions.">
+        content="Submit your business to be featured on Discover Utah County. Share your details and reach more visitors through our local attractions directory.">
 
     <!-- Social Media Tags -->
     <meta property="og:title" content="Discover Utah County">
@@ -59,7 +59,36 @@
 
 
     <main>
+        <h1>Be Featured</h1>
+        <p>Want to feature your business or organization on Discover Utah County?</p>
+        <p>Just fill out the form below and we will be in contact with you.</p>
 
+        <form method="get" action="thankyou.html">
+            <h2>Application</h2>
+
+            <label for="firstName">First Name: <span aria-hidden="true">*</span></label>
+            <input type="text" name="first" id="firstName" title="Enter your first name" autocomplete="given-name"
+                required>
+
+            <label for="lastName">Last Name: <span aria-hidden="true">*</span></label>
+            <input type="text" name="last" id="lastName" title="Enter your last name" autocomplete="family-name"
+                required>
+
+            <label for="userEmail">Email Address: <span aria-hidden="true">*</span></label>
+            <input type="email" name="email" id="userEmail" title="Enter your email address" autocomplete="email"
+                placeholder="example@email.com" required>
+
+            <label for="organizationName">Organization Name: <span aria-hidden="true">*</span></label>
+            <input type="text" name="organization" id="organizationName"
+                title="Enter your business or organization's name" autocomplete="organization" required>
+
+            <label for="organizationDescription">Organization Description:</label>
+            <textarea name="description" id="organizationDescription"
+                title="Describe your business or organization"></textarea>
+
+            <input type="hidden" name="timestamp" id="timestamp" value="">
+            <input type="submit" value="Finish Application" class="submit-button">
+        </form>
     </main>
 
     <footer>

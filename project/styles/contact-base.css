@@ -128,8 +128,8 @@ footer {
     display: flex;
     justify-content: flex-start;
     justify-content: center;
+    align-items: center;
     gap: 5px;
-
 
 }
 
@@ -148,6 +148,8 @@ footer {
 .social img {
     width: 30px;
     height: 30px;
+    object-fit: contain;
+    display: block;
 }
 
 .social a:hover {
@@ -160,9 +162,68 @@ footer {
     text-align: center;
     color: var(--accent-color);
 
-
 }
+
+
 
 .copyright a {
     color: var(--accent-color);
+}
+
+/** Main Content **/
+
+
+h1 {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+main p {
+    text-align: center;
+    color: var(--primary-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: var(--primary-color);
+}
+
+label {
+    display: block;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+textarea {
+    padding: 25px;
+}
+
+
+.submit-button,
+.button-open {
+    width: 200px;
+    height: 40px;
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    border-radius: 5px;
+}
+
+.submit-button:hover {
+    background-color: var(--secondary-color);
 }
